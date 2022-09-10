@@ -32,6 +32,7 @@ public class Estudiante extends Persona{
 
     @Override
     public String toString() {
-        return "Id:"+ id +"-Nombre: " + nombre + "-Programa: " + programaAcademico +"-Promedio: "+ promedio;
+        return "Id: "+ id +" -Nombre: " + nombre + " -Programa: " + programaAcademico +" -Promedio: "+ promedio;
     }
 }
+
